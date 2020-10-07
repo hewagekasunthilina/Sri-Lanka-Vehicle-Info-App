@@ -1,66 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <androidx.constraintlayout.widget.ConstraintLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".RevlicenceData">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RevlicenceData">
 
-        <TextView
-            android:id="@+id/textView_appName7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="100dp"
-            android:layout_marginTop="200dp"
-            android:layout_marginEnd="100dp"
-            android:layout_marginBottom="16dp"
-            android:fontFamily="sans-serif-light"
-            android:text="Sri Lanka"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="14sp"
-            android:textStyle="normal"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.506"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/imageView8"
-            app:layout_constraintVertical_bias="0.906" />
+    <TextView
+        android:id="@+id/textView_appName7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Sri Lanka"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView8"
+        app:layout_constraintVertical_bias="0.906" />
 
-        <TextView
-            android:id="@+id/textView_appName6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="100dp"
-            android:layout_marginTop="200dp"
-            android:layout_marginEnd="100dp"
-            android:layout_marginBottom="36dp"
-            android:fontFamily="sans-serif-light"
-            android:text="Department Of Motor Traffic"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="14sp"
-            android:textStyle="normal"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.486"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/imageView8"
-            app:layout_constraintVertical_bias="0.906" />
+    <TextView
+        android:id="@+id/textView_appName6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="36dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Department Of Motor Traffic"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView8"
+        app:layout_constraintVertical_bias="0.906" />
 
-        <View
-            android:id="@+id/signUpTopView"
-            android:layout_width="417dp"
-            android:layout_height="414dp"
-            android:layout_marginBottom="100dp"
-            android:background="@drawable/loading_background"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.666"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
+    <View
+        android:id="@+id/signUpTopView"
+        android:layout_width="417dp"
+        android:layout_height="414dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/loading_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
     <TextView
         android:id="@+id/LoginTopView"
         android:layout_width="wrap_content"
@@ -94,123 +94,124 @@
         app:layout_constraintVertical_bias="0.080" />
 
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/constraintLayout"
-            android:layout_width="382dp"
-            android:layout_height="500dp"
-            android:background="@drawable/subs_panel"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.4"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/signUpTopView"
-            app:layout_constraintVertical_bias="0.809">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="382dp"
+        android:layout_height="500dp"
+        android:background="@drawable/subs_panel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/signUpTopView"
+        app:layout_constraintVertical_bias="0.809">
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp">
+
             <androidx.cardview.widget.CardView
                 android:id="@+id/dashcard1"
                 android:layout_width="300dp"
                 android:layout_height="450dp"
                 android:layout_margin="10dp"
-                app:cardCornerRadius="12dp"
-                app:cardElevation="15dp"
                 android:layout_marginTop="100dp"
                 android:outlineAmbientShadowColor="@color/white"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="15dp"
                 tools:ignore="MissingConstraints">
 
-            <!--<RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center_horizontal"
-                android:layout_marginLeft="40dp">
-
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
-                    android:layout_marginBottom="600dp"
-                    android:layout_marginEnd="52dp"
-                    android:layout_marginLeft="50dp"
-                    android:text="Revenewing Status"
-                    android:textColor="@android:color/black"
-                    android:textSize="25dp"
-                    android:textStyle="bold"
-                    android:gravity="center"/>
-
-
-            </RelativeLayout>-->
-
-            <LinearLayout
-                android:layout_width="230dp"
-                android:layout_height="300dp"
-                android:layout_marginTop="40dp"
-                android:layout_marginBottom="135dp"
-                android:layout_marginLeft="25dp"
-                android:layout_marginRight="20dp"
-                android:orientation="vertical"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.497"
-                app:layout_constraintStart_toStartOf="parent">
-
-
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="60dp"
-                    android:drawablePadding="16dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginLeft="1dp"
-                    android:layout_marginRight="1dp"
-                    android:text="LICENSE NO. : KA-1010"
-                    android:background="@null"/>
-
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="65dp"
-                    android:drawablePadding="16dp"
-                    android:text="ISSUED DATE : 2019-06-02"
-                    android:layout_marginLeft="1dp"
-                    android:layout_marginRight="1dp"
-                    android:inputType="phone"
-                    android:background="@null"/>
-
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="60dp"
-                    android:drawablePadding="16dp"
-                    android:text="EXPIRY DATE : 2020-06-29"
-                    android:layout_marginLeft="1dp"
-                    android:layout_marginRight="1dp"
-                    android:background="@null"/>
-
-                <RelativeLayout
+                <!--<RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="30dp">
+                    android:gravity="center_horizontal"
+                    android:layout_marginLeft="40dp">
 
-                <Button
-                    android:id="@+id/btn_rev_ok"
-                    android:layout_width="200dp"
-                    android:layout_height="48dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:background="@drawable/shape_btn"
-                    android:text="OK" />
-                </RelativeLayout>
 
-            </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="600dp"
+                        android:layout_marginEnd="52dp"
+                        android:layout_marginLeft="50dp"
+                        android:text="Revenewing Status"
+                        android:textColor="@android:color/black"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:gravity="center"/>
+
+
+                </RelativeLayout>-->
+
+                <LinearLayout
+                    android:layout_width="230dp"
+                    android:layout_height="300dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="135dp"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent">
+
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@null"
+                        android:drawablePadding="16dp"
+                        android:text="LICENSE NO. : KA-1010" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@null"
+                        android:drawablePadding="16dp"
+                        android:inputType="phone"
+                        android:text="ISSUED DATE : 2019-06-02" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@null"
+                        android:drawablePadding="16dp"
+                        android:text="EXPIRY DATE : 2020-06-29" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="30dp">
+
+                        <Button
+                            android:id="@+id/btn_rev_ok"
+                            android:layout_width="200dp"
+                            android:layout_height="48dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/shape_btn"
+                            android:text="OK" />
+                    </RelativeLayout>
+
+                </LinearLayout>
             </androidx.cardview.widget.CardView>
-            </RelativeLayout>
+        </RelativeLayout>
 
 
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="160dp"
@@ -222,4 +223,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/revdatadetails" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

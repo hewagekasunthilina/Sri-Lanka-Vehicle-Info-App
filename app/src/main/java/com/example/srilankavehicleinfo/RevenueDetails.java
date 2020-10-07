@@ -12,6 +12,7 @@ public class RevenueDetails extends AppCompatActivity {
     //RevlicenceData
     private Button mybutton;
     EditText mynum;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,10 +20,8 @@ public class RevenueDetails extends AppCompatActivity {
 
         mybutton = (Button) findViewById(R.id.submitbtnrev);
         mynum = (EditText) findViewById(R.id.revnumbertxt);
-        mybutton.setOnClickListener(new View.OnClickListener()
-        {
-            public void onClick(View v)
-            {
+        mybutton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
                 String number = mynum.getText().toString().trim();
 
                 if (number.isEmpty()) {
@@ -37,9 +36,8 @@ public class RevenueDetails extends AppCompatActivity {
 
     }
 
-    public void viewData()
-    {
-        Intent i = new Intent(this,RevlicenceData.class);
+    public void viewData() {
+        Intent i = new Intent(this, RevlicenceData.class);
         startActivity(i);
     }
 

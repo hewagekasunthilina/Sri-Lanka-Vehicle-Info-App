@@ -12,10 +12,10 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 
-public class OngoingVehicle extends AppCompatActivity{
+public class OngoingVehicle extends AppCompatActivity {
 
-    public CardView carcadmy1,carcadmy2,carcadmy3,carcadmy4,carcadmy5,carcadmy6,carcadmy7,carcadmy8,carcadmy9,carcadmy10;
-    public CardView carcadmy11,carcadmy12,carcadmy13,carcadmy14,carcadmy15,carcadmy16,carcadmy17,carcadmy18;
+    public CardView carcadmy1, carcadmy2, carcadmy3, carcadmy4, carcadmy5, carcadmy6, carcadmy7, carcadmy8, carcadmy9, carcadmy10;
+    public CardView carcadmy11, carcadmy12, carcadmy13, carcadmy14, carcadmy15, carcadmy16, carcadmy17, carcadmy18;
     Dialog mydialog;
 
     @Override
@@ -154,8 +154,7 @@ public class OngoingVehicle extends AppCompatActivity{
 
     }
 
-    public void showdemoDialog()
-    {
+    public void showdemoDialog() {
         Dialog mydialog = new Dialog(OngoingVehicle.this);
         mydialog.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
         mydialog.setContentView(R.layout.activity_ongoing_demo_data);
@@ -171,9 +170,8 @@ public class OngoingVehicle extends AppCompatActivity{
         mydialog.show();
     }
 
-    public void goBack()
-    {
-        Intent i = new Intent(this,OngoingVehicle.class);
+    public void goBack() {
+        Intent i = new Intent(this, OngoingVehicle.class);
         startActivity(i);
     }
 }

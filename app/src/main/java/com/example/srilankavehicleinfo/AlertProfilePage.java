@@ -39,7 +39,6 @@ public class AlertProfilePage extends AppCompatActivity {
     }
 
 
-
     private boolean validateProContact() {
         String ProConatactInput = textInputProContact.getText().toString().trim();
 

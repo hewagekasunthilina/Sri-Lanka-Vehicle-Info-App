@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
 
-        licenseAlert = (CardView)findViewById(R.id.dashcard4);
+        licenseAlert = (CardView) findViewById(R.id.dashcard4);
         licenseAlert.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -134,8 +134,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
 
-    public void openRevenueLicenseAlertPage(){
-        Intent alert = new Intent(this,LicenseAlertMainPage.class);
+    public void openRevenueLicenseAlertPage() {
+        Intent alert = new Intent(this, LicenseAlertMainPage.class);
         startActivity(alert);
     }
 }

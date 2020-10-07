@@ -44,7 +44,7 @@ public class ShowDetails extends AppCompatActivity {
             }
         });
 
-        ok = (Button)findViewById(R.id.btnok);
+        ok = (Button) findViewById(R.id.btnok);
         ok.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -14,32 +14,22 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
 
-        <activity android:name=".OngoingDataDemo"></activity>
-        <activity android:name=".activity_ongoing_details" />
-        <activity android:name=".OngoingVehicle" />
-        <activity android:name=".PageExit" />
-        <activity android:name=".RevlicenceData" />
-        <activity android:name=".RevenueDetails" />
+        <activity android:name=".OngoingDataDemo"
+            android:screenOrientation="portrait"></activity>
+<!--        <activity android:name=".activity_ongoing_details"-->
+<!--            android:screenOrientation="portrait"/>-->
+        <activity android:name=".OngoingVehicle"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".PageExit"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".RevlicenceData"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".RevenueDetails"
+            android:screenOrientation="portrait"/>
 
 
-        <activity android:name=".TrafficHomePage"></activity>
-        
-
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <activity android:name=".TrafficHomePage"
+            android:screenOrientation="portrait"></activity>
 
         <activity
             android:name=".InfoViewTwo"

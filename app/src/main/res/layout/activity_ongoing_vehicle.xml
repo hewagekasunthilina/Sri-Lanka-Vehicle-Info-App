@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -68,10 +67,10 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:gravity="center_horizontal"
             android:layout_marginLeft="5dp"
+            android:layout_marginTop="100dp"
             android:layout_marginRight="5dp"
-            android:layout_marginTop="100dp">
+            android:gravity="center_horizontal">
 
             <TextView
                 android:layout_width="match_parent"
@@ -79,10 +78,10 @@
                 android:layout_marginTop="70dp"
                 android:fontFamily="sans-serif-light"
                 android:text="DASHBOARD"
-                android:textColor="@color/white"
                 android:textAlignment="center"
+                android:textColor="@color/white"
                 android:textSize="40dp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
         </RelativeLayout>
 
@@ -90,11 +89,11 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
-            android:orientation="vertical"
             android:layout_margin="10dp"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="20dp"
-            android:gravity="center">
+            android:gravity="center"
+            android:orientation="vertical">
             <!-- <ScrollView
                  android:layout_width="match_parent"
                  android:layout_height="match_parent">-->
@@ -116,11 +115,11 @@
                     android:layout_width="93dp"
                     android:layout_height="93dp"
                     android:layout_margin="10dp"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="15dp"
-                    android:layout_marginTop="130dp"
                     android:layout_marginLeft="10dp"
-                    android:outlineAmbientShadowColor="@color/white" >
+                    android:layout_marginTop="130dp"
+                    android:outlineAmbientShadowColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="15dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -161,10 +160,10 @@
                     android:layout_width="93dp"
                     android:layout_height="93dp"
                     android:layout_margin="10dp"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="15dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="130dp"
-                    android:layout_marginLeft="10dp">
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="15dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -199,16 +198,17 @@
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
+
                 <androidx.cardview.widget.CardView
                     android:id="@+id/carcard3"
                     android:layout_width="93dp"
                     android:layout_height="93dp"
                     android:layout_margin="10dp"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="15dp"
-                    android:layout_marginTop="130dp"
                     android:layout_marginLeft="10dp"
-                    android:outlineAmbientShadowColor="@color/white" >
+                    android:layout_marginTop="130dp"
+                    android:outlineAmbientShadowColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="15dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -243,16 +243,17 @@
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
+
                 <androidx.cardview.widget.CardView
                     android:id="@+id/carcard4"
                     android:layout_width="93dp"
                     android:layout_height="93dp"
                     android:layout_margin="10dp"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="15dp"
-                    android:layout_marginTop="20dp"
                     android:layout_marginLeft="10dp"
-                    android:outlineAmbientShadowColor="@color/white" >
+                    android:layout_marginTop="20dp"
+                    android:outlineAmbientShadowColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="15dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -293,10 +294,10 @@
                     android:layout_width="93dp"
                     android:layout_height="93dp"
                     android:layout_margin="10dp"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="15dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="20dp"
-                    android:layout_marginLeft="10dp">
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="15dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -331,16 +332,17 @@
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
+
                 <androidx.cardview.widget.CardView
                     android:id="@+id/carcard6"
                     android:layout_width="93dp"
                     android:layout_height="93dp"
                     android:layout_margin="10dp"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="15dp"
-                    android:layout_marginTop="20dp"
                     android:layout_marginLeft="10dp"
-                    android:outlineAmbientShadowColor="@color/white" >
+                    android:layout_marginTop="20dp"
+                    android:outlineAmbientShadowColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="15dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -381,11 +383,11 @@
                     android:layout_width="93dp"
                     android:layout_height="93dp"
                     android:layout_margin="10dp"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="15dp"
-                    android:layout_marginTop="20dp"
                     android:layout_marginLeft="10dp"
-                    android:outlineAmbientShadowColor="@color/white" >
+                    android:layout_marginTop="20dp"
+                    android:outlineAmbientShadowColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="15dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -426,10 +428,10 @@
                     android:layout_width="93dp"
                     android:layout_height="93dp"
                     android:layout_margin="10dp"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="15dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="20dp"
-                    android:layout_marginLeft="10dp">
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="15dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -464,16 +466,17 @@
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
+
                 <androidx.cardview.widget.CardView
                     android:id="@+id/carcard9"
                     android:layout_width="93dp"
                     android:layout_height="93dp"
                     android:layout_margin="10dp"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="15dp"
-                    android:layout_marginTop="20dp"
                     android:layout_marginLeft="10dp"
-                    android:outlineAmbientShadowColor="@color/white" >
+                    android:layout_marginTop="20dp"
+                    android:outlineAmbientShadowColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="15dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -514,11 +517,11 @@
                     android:layout_width="93dp"
                     android:layout_height="93dp"
                     android:layout_margin="10dp"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="15dp"
-                    android:layout_marginTop="20dp"
                     android:layout_marginLeft="10dp"
-                    android:outlineAmbientShadowColor="@color/white" >
+                    android:layout_marginTop="20dp"
+                    android:outlineAmbientShadowColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="15dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -559,10 +562,10 @@
                     android:layout_width="93dp"
                     android:layout_height="93dp"
                     android:layout_margin="10dp"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="15dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="20dp"
-                    android:layout_marginLeft="10dp">
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="15dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -597,16 +600,17 @@
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
+
                 <androidx.cardview.widget.CardView
                     android:id="@+id/carcard12"
                     android:layout_width="93dp"
                     android:layout_height="93dp"
                     android:layout_margin="10dp"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="15dp"
-                    android:layout_marginTop="20dp"
                     android:layout_marginLeft="10dp"
-                    android:outlineAmbientShadowColor="@color/white" >
+                    android:layout_marginTop="20dp"
+                    android:outlineAmbientShadowColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="15dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -647,11 +651,11 @@
                     android:layout_width="93dp"
                     android:layout_height="93dp"
                     android:layout_margin="10dp"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="15dp"
-                    android:layout_marginTop="20dp"
                     android:layout_marginLeft="10dp"
-                    android:outlineAmbientShadowColor="@color/white" >
+                    android:layout_marginTop="20dp"
+                    android:outlineAmbientShadowColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="15dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -692,11 +696,11 @@
                     android:layout_width="93dp"
                     android:layout_height="93dp"
                     android:layout_margin="10dp"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="15dp"
-                    android:layout_marginTop="20dp"
                     android:layout_marginLeft="10dp"
-                    android:outlineAmbientShadowColor="@color/white" >
+                    android:layout_marginTop="20dp"
+                    android:outlineAmbientShadowColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="15dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -737,11 +741,11 @@
                     android:layout_width="93dp"
                     android:layout_height="93dp"
                     android:layout_margin="10dp"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="15dp"
-                    android:layout_marginTop="20dp"
                     android:layout_marginLeft="10dp"
-                    android:outlineAmbientShadowColor="@color/white" >
+                    android:layout_marginTop="20dp"
+                    android:outlineAmbientShadowColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="15dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -782,11 +786,11 @@
                     android:layout_width="93dp"
                     android:layout_height="93dp"
                     android:layout_margin="10dp"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="15dp"
-                    android:layout_marginTop="20dp"
                     android:layout_marginLeft="10dp"
-                    android:outlineAmbientShadowColor="@color/white" >
+                    android:layout_marginTop="20dp"
+                    android:outlineAmbientShadowColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="15dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -827,11 +831,11 @@
                     android:layout_width="93dp"
                     android:layout_height="93dp"
                     android:layout_margin="10dp"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="15dp"
-                    android:layout_marginTop="20dp"
                     android:layout_marginLeft="10dp"
-                    android:outlineAmbientShadowColor="@color/white" >
+                    android:layout_marginTop="20dp"
+                    android:outlineAmbientShadowColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="15dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -866,16 +870,17 @@
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
+
                 <androidx.cardview.widget.CardView
                     android:id="@+id/carcard18"
                     android:layout_width="93dp"
                     android:layout_height="93dp"
                     android:layout_margin="10dp"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="15dp"
-                    android:layout_marginTop="20dp"
                     android:layout_marginLeft="10dp"
-                    android:outlineAmbientShadowColor="@color/white" >
+                    android:layout_marginTop="20dp"
+                    android:outlineAmbientShadowColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="15dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -916,7 +921,6 @@
             <!-- -->
 
         </LinearLayout>
-
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

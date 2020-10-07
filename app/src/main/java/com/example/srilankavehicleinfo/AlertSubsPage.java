@@ -25,8 +25,6 @@ public class AlertSubsPage extends AppCompatActivity {
     private ImageView Password_see;
 
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -75,12 +73,10 @@ public class AlertSubsPage extends AppCompatActivity {
         if (PasswordInput.isEmpty()) {
             textInputPassword.setError("Field Can't be Empty");
             return false;
-        }
-        else if(!SubPassword_Pattern.matcher(PasswordInput).matches()){
+        } else if (!SubPassword_Pattern.matcher(PasswordInput).matches()) {
             textInputPassword.setError("Incorrect Password");
             return false;
-        }
-        else {
+        } else {
             textInputPassword.setError(null);
 
             return true;
@@ -116,7 +112,7 @@ public class AlertSubsPage extends AppCompatActivity {
         input += "\n";
         input += "Password: " + textInputPassword.getText().toString();
 
-        Toast.makeText(this,input,Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, input, Toast.LENGTH_SHORT).show();
     }
 
     public void Password_see(View view) {

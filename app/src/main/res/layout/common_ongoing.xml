@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/Black"
-    android:layout_gravity="center">
+    android:layout_gravity="center"
+    android:background="@color/Black">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/dashcard1"
@@ -17,22 +16,22 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:gravity="center_horizontal"
-            android:layout_marginLeft="40dp">
+            android:layout_marginLeft="40dp"
+            android:gravity="center_horizontal">
 
             <TextView
                 android:id="@+id/LoginTopView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="120dp"
-                android:layout_marginBottom="600dp"
-                android:layout_marginEnd="52dp"
                 android:layout_marginLeft="50dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginEnd="52dp"
+                android:layout_marginBottom="600dp"
+                android:gravity="center"
                 android:text="Ongoing Car Number"
                 android:textColor="@android:color/black"
                 android:textSize="30dp"
-                android:textStyle="bold"
-                android:gravity="center"/>
+                android:textStyle="bold" />
 
 
         </RelativeLayout>
@@ -40,29 +39,29 @@
         <LinearLayout
             android:layout_width="230dp"
             android:layout_height="300dp"
-            android:layout_marginTop="120dp"
-            android:layout_marginBottom="135dp"
             android:layout_marginLeft="50dp"
+            android:layout_marginTop="120dp"
             android:layout_marginRight="50dp"
+            android:layout_marginBottom="135dp"
             android:orientation="vertical">
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:layout_marginTop="100dp"
                 android:layout_marginLeft="20dp"
+                android:layout_marginTop="100dp"
                 android:layout_marginRight="20dp"
-                android:textStyle="bold"
+                android:background="@null"
                 android:gravity="center"
-                android:textSize="30dp"
                 android:text="KA-1010"
-                android:background="@null"/>
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp">
 
                 <Button

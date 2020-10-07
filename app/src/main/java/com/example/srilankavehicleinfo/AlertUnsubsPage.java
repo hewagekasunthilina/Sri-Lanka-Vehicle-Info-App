@@ -71,12 +71,11 @@ public class AlertUnsubsPage extends AppCompatActivity {
         }
 
 
-
         String input = "Contact: " + textInputUnSubContact.getText().toString();
         input += "\n";
         input += "Password: " + textInputUnSubPassword.getText().toString();
 
-        Toast.makeText(this,input,Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, input, Toast.LENGTH_SHORT).show();
     }
 
     public void UnsubPassword_see(View view) {

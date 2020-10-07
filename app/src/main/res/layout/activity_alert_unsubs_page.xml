@@ -69,10 +69,10 @@
         android:contentDescription="@string/unsub_title_img"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.234"
+        app:layout_constraintHorizontal_bias="0.228"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.035"
+        app:layout_constraintVertical_bias="0.053"
         app:srcCompat="@drawable/unsub_eye" />
 
     <TextView
@@ -88,10 +88,9 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.532"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.035" />
+        app:layout_constraintVertical_bias="0.052" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
@@ -121,6 +120,7 @@
             tools:ignore="OnClick" />
 
         <LinearLayout
+            android:id="@+id/linearLayout5"
             android:layout_width="230dp"
             android:layout_height="150dp"
             android:layout_marginBottom="135dp"
@@ -153,6 +153,20 @@
 
         </LinearLayout>
 
+        <ImageView
+            android:id="@+id/unsub_pwd_see"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="184dp"
+            android:contentDescription="@string/mini_pic_for_unsubscribe"
+            android:onClick="UnsubPassword_see"
+            android:tag="eye"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.188"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout5"
+            app:srcCompat="@drawable/eye" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -169,5 +183,17 @@
         app:layout_constraintTop_toTopOf="@+id/unsubTopView"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/bell_off" />
+
+    <TextView
+        android:id="@+id/unsub_miniTitle"
+        android:layout_width="214dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="96dp"
+        android:text="@string/unsub_mini_title"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.604"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -82,6 +82,12 @@
     <string name="unsub_title_img">unsub_title_img</string>
     <string name="unsub_main_img">unsub_main_img</string>
 
+    <string name="password_eye_see">password_eye_see</string>
+    <string name="unsub_mini_title">Please Submit Details To Proceed</string>
+    <string name="profile_mini_title">Update To Your Latest Details</string>
+    <string name="mini_pic_profile">mini_pic_profile</string>
+    <string name="mini_pic_for_unsubscribe">mini_pic_for_unsubscribe</string>
+
 
 
 </resources>
